@@ -1,0 +1,868 @@
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Initiating CloudCheckr data pull for api key ending in '3AVXKX'
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: apikey: 3N8HD98RV2L9V0SQF8U0S4B539136ABCV6F78A1R8632X17MA97F8Z749H3AVXKX, customerCode if available: NA, useAccount: 634137649812
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: get_accounts_v4 ***********
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: url get_accounts_v4:https://eu.cloudcheckr.com/api//account.json/get_accounts_v4?access_key=N1DJVNNL97I2R65TSAH27387BAB06074AMT3C547RKX9ATCG7R647KKEAW2MUE6W
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+{
+    "accounts_and_users": [
+        {
+            "account_name": "Payer (102512488663)",
+            "aws_account_id": "102512488663",
+            "azure_account_id": null,
+            "cc_account_id": "2",
+            "externalId": "CC-1FDE89FCF6B67650123C3345C6B12E17",
+            "user_names": [
+                "customer-external@atos.dev"
+            ]
+        },
+        {
+            "account_name": "atos-gen-ra4-dev",
+            "aws_account_id": "634137649812",
+            "azure_account_id": null,
+            "cc_account_id": "3",
+            "externalId": "CC-FE626BFC5F9C7398095AA8FA36AB1E35",
+            "user_names": [
+                "anup.kurian.external@atos365.mail.onmicrosoft.com",
+                "chetan.saraf@atos365.mail.onmicrosoft.com",
+                "customer-external@atos.dev"
+            ]
+        },
+        {
+            "account_name": "atos-csi-aws",
+            "aws_account_id": null,
+            "azure_account_id": null,
+            "cc_account_id": "4",
+            "externalId": "CC-1E398657C948B6F28AC278E0A0A3E350",
+            "user_names": [
+                "anup.kurian.external@atos365.mail.onmicrosoft.com",
+                "chetan.saraf@atos365.mail.onmicrosoft.com"
+            ]
+        },
+        {
+            "account_name": "atos-csi-azure",
+            "aws_account_id": null,
+            "azure_account_id": null,
+            "cc_account_id": "5",
+            "externalId": "CC-C9EF87302F1EBB5B13F31362E48E0BB0",
+            "user_names": [
+                "anup.kurian.external@atos365.mail.onmicrosoft.com",
+                "chetan.saraf@atos365.mail.onmicrosoft.com"
+            ]
+        },
+        {
+            "account_name": "Atos UHC Dev1",
+            "aws_account_id": null,
+            "azure_account_id": "5fbf508c-7f81-4b1c-a153-c8b2a53a9929",
+            "cc_account_id": "6",
+            "externalId": "CC-1BF99DE11CA74BCCCCCE985769CECD11",
+            "user_names": [
+                "anup.kurian.external@atos365.mail.onmicrosoft.com",
+                "chetan.saraf@atos365.mail.onmicrosoft.com"
+            ]
+        },
+        {
+            "account_name": "Billing Account (2018-06-07)",
+            "aws_account_id": null,
+            "azure_account_id": "",
+            "cc_account_id": "8",
+            "externalId": "CC-4009E777319552A37F03A55EDD977729",
+            "user_names": []
+        },
+        {
+            "account_name": "Atos UHC Dev2",
+            "aws_account_id": null,
+            "azure_account_id": "f519bb87-e7bb-4fdc-8bae-e72907163ae5",
+            "cc_account_id": "9",
+            "externalId": "CC-23A09FCE8A142FE0A1C0660D3B77A1C0",
+            "user_names": [
+                "anup.kurian.external@atos365.mail.onmicrosoft.com",
+                "chetan.saraf@atos365.mail.onmicrosoft.com"
+            ]
+        },
+        {
+            "account_name": "UHC Dev",
+            "aws_account_id": null,
+            "azure_account_id": "",
+            "cc_account_id": "10",
+            "externalId": "CC-D2E76D4A449EE54FC01E546B62AF4659",
+            "user_names": [
+                "anup.kurian.external@atos365.mail.onmicrosoft.com",
+                "chetan.saraf@atos365.mail.onmicrosoft.com"
+            ]
+        },
+        {
+            "account_name": "Payer (634137649812)",
+            "aws_account_id": "634137649812",
+            "azure_account_id": null,
+            "cc_account_id": "12",
+            "externalId": "CC-EE4439028E40D84FD3DEDB49DC7E54E1",
+            "user_names": [
+                "anup.kurian.external@atos365.mail.onmicrosoft.com",
+                "chetan.saraf@atos365.mail.onmicrosoft.com"
+            ]
+        },
+        {
+            "account_name": "globalservicesproject",
+            "aws_account_id": null,
+            "azure_account_id": null,
+            "cc_account_id": "16",
+            "externalId": "CC-18CB82B26B384CC87CA92A9B06844F74",
+            "user_names": [
+                "dave.c.smith@atos365.mail.onmicrosoft.com"
+            ]
+        },
+        {
+            "account_name": "migrationdemoproject",
+            "aws_account_id": null,
+            "azure_account_id": null,
+            "cc_account_id": "17",
+            "externalId": "CC-393641221FA3C7377131CF902CE75F97",
+            "user_names": [
+                "dave.c.smith@atos365.mail.onmicrosoft.com"
+            ]
+        },
+        {
+            "account_name": "Mindsphere CSP1",
+            "aws_account_id": null,
+            "azure_account_id": "",
+            "cc_account_id": "19",
+            "externalId": "CC-BFA6777111C4737C7591D6DF59A56FDB",
+            "user_names": [
+                "adam.dolman@atos365.mail.onmicrosoft.com",
+                "surbhi.2.sharma@atos365.mail.onmicrosoft.com"
+            ]
+        },
+        {
+            "account_name": "mindsphere-csp1",
+            "aws_account_id": null,
+            "azure_account_id": "27c66729-3497-453d-918d-a44c83945c59",
+            "cc_account_id": "20",
+            "externalId": "CC-470E8E1ACCC30A140B58EED63F47E5DF",
+            "user_names": [
+                "adam.dolman@atos365.mail.onmicrosoft.com",
+                "surbhi.2.sharma@atos365.mail.onmicrosoft.com"
+            ]
+        },
+        {
+            "account_name": "Payer (013081318756)",
+            "aws_account_id": "013081318756",
+            "azure_account_id": null,
+            "cc_account_id": "21",
+            "externalId": "CC-DE88324526EFEF7C0E2A0FC495CAE87A",
+            "user_names": [
+                "anup.kurian.external@atos365.mail.onmicrosoft.com",
+                "chetan.saraf@atos365.mail.onmicrosoft.com"
+            ]
+        },
+        {
+            "account_name": "mindsphere-azure",
+            "aws_account_id": null,
+            "azure_account_id": null,
+            "cc_account_id": "22",
+            "externalId": "CC-57E06F950077A210109AFF2091CC2C11",
+            "user_names": [
+                "adam.dolman@atos365.mail.onmicrosoft.com",
+                "surbhi.2.sharma@atos365.mail.onmicrosoft.com"
+            ]
+        },
+        {
+            "account_name": "CSI Dev",
+            "aws_account_id": null,
+            "azure_account_id": "",
+            "cc_account_id": "23",
+            "externalId": "CC-C8F168B4F3CD7DD56589F9CF5D1D2C91",
+            "user_names": [
+                "anup.kurian.external@atos365.mail.onmicrosoft.com",
+                "chetan.saraf@atos365.mail.onmicrosoft.com"
+            ]
+        },
+        {
+            "account_name": "Atos CSI Dev1",
+            "aws_account_id": null,
+            "azure_account_id": "692b17bd-3d27-4da0-bd12-40aa55e8c8b3",
+            "cc_account_id": "24",
+            "externalId": "CC-C5AD38F504A7833F90DB1CBAF9A63B3B",
+            "user_names": [
+                "anup.kurian.external@atos365.mail.onmicrosoft.com",
+                "chetan.saraf@atos365.mail.onmicrosoft.com"
+            ]
+        },
+        {
+            "account_name": "Atos CSI Dev2",
+            "aws_account_id": null,
+            "azure_account_id": "dfadd3bc-5139-42f9-9e0e-766e5f7a5817",
+            "cc_account_id": "25",
+            "externalId": "CC-2C71A126136B4F8C609DEF6B1B192DEB",
+            "user_names": []
+        },
+        {
+            "account_name": "atos-gen-ra2-dev",
+            "aws_account_id": "013081318756",
+            "azure_account_id": null,
+            "cc_account_id": "27",
+            "externalId": "CC-C0DECCF86B673FF62D4E164D50F28023",
+            "user_names": [
+                "anup.kurian.external@atos365.mail.onmicrosoft.com",
+                "chetan.saraf@atos365.mail.onmicrosoft.com"
+            ]
+        },
+        {
+            "account_name": "atos-gen-ra2-qa",
+            "aws_account_id": "036160016055",
+            "azure_account_id": null,
+            "cc_account_id": "30",
+            "externalId": "CC-BBB72C3EFD6FB522995A272B09732952",
+            "user_names": [
+                "chetan.saraf@atos365.mail.onmicrosoft.com"
+            ]
+        }
+    ]
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: External Ids found: ['CC-1FDE89FCF6B67650123C3345C6B12E17', 'CC-FE626BFC5F9C7398095AA8FA36AB1E35', 'CC-1E398657C948B6F28AC278E0A0A3E350', 'CC-C9EF87302F1EBB5B13F31362E48E0BB0', 'CC-1BF99DE11CA74BCCCCCE985769CECD11', 'CC-4009E777319552A37F03A55EDD977729', 'CC-23A09FCE8A142FE0A1C0660D3B77A1C0', 'CC-D2E76D4A449EE54FC01E546B62AF4659', 'CC-EE4439028E40D84FD3DEDB49DC7E54E1', 'CC-18CB82B26B384CC87CA92A9B06844F74', 'CC-393641221FA3C7377131CF902CE75F97', 'CC-BFA6777111C4737C7591D6DF59A56FDB', 'CC-470E8E1ACCC30A140B58EED63F47E5DF', 'CC-DE88324526EFEF7C0E2A0FC495CAE87A', 'CC-57E06F950077A210109AFF2091CC2C11', 'CC-C8F168B4F3CD7DD56589F9CF5D1D2C91', 'CC-C5AD38F504A7833F90DB1CBAF9A63B3B', 'CC-2C71A126136B4F8C609DEF6B1B192DEB', 'CC-C0DECCF86B673FF62D4E164D50F28023', 'CC-BBB72C3EFD6FB522995A272B09732952']
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-1FDE89FCF6B67650123C3345C6B12E17
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-1FDE89FCF6B67650123C3345C6B12E17' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-FE626BFC5F9C7398095AA8FA36AB1E35
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-FE626BFC5F9C7398095AA8FA36AB1E35' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-1E398657C948B6F28AC278E0A0A3E350
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-1E398657C948B6F28AC278E0A0A3E350' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-C9EF87302F1EBB5B13F31362E48E0BB0
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-C9EF87302F1EBB5B13F31362E48E0BB0' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-1BF99DE11CA74BCCCCCE985769CECD11
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-1BF99DE11CA74BCCCCCE985769CECD11' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-4009E777319552A37F03A55EDD977729
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-4009E777319552A37F03A55EDD977729' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-23A09FCE8A142FE0A1C0660D3B77A1C0
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-23A09FCE8A142FE0A1C0660D3B77A1C0' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-D2E76D4A449EE54FC01E546B62AF4659
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-D2E76D4A449EE54FC01E546B62AF4659' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-EE4439028E40D84FD3DEDB49DC7E54E1
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-EE4439028E40D84FD3DEDB49DC7E54E1' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-18CB82B26B384CC87CA92A9B06844F74
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-18CB82B26B384CC87CA92A9B06844F74' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-393641221FA3C7377131CF902CE75F97
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-393641221FA3C7377131CF902CE75F97' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-BFA6777111C4737C7591D6DF59A56FDB
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-BFA6777111C4737C7591D6DF59A56FDB' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-470E8E1ACCC30A140B58EED63F47E5DF
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-470E8E1ACCC30A140B58EED63F47E5DF' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-DE88324526EFEF7C0E2A0FC495CAE87A
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-DE88324526EFEF7C0E2A0FC495CAE87A' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-57E06F950077A210109AFF2091CC2C11
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-57E06F950077A210109AFF2091CC2C11' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-C8F168B4F3CD7DD56589F9CF5D1D2C91
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-C8F168B4F3CD7DD56589F9CF5D1D2C91' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-C5AD38F504A7833F90DB1CBAF9A63B3B
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-C5AD38F504A7833F90DB1CBAF9A63B3B' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-2C71A126136B4F8C609DEF6B1B192DEB
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-2C71A126136B4F8C609DEF6B1B192DEB' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-C0DECCF86B673FF62D4E164D50F28023
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-C0DECCF86B673FF62D4E164D50F28023' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid External Id: CC-BBB72C3EFD6FB522995A272B09732952
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "The value 'CC-BBB72C3EFD6FB522995A272B09732952' is not valid for account_id."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: aws account Ids found: ['102512488663', '634137649812', None, None, None, None, None, None, '634137649812', None, None, None, None, '013081318756', None, None, None, None, '013081318756', '036160016055']
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid aws account Id: 102512488663
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "An error has occurred."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid aws account Id: 634137649812
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "An error has occurred."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: None not a valid aws account id
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: None not a valid aws account id
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: None not a valid aws account id
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: None not a valid aws account id
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: None not a valid aws account id
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: None not a valid aws account id
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid aws account Id: 634137649812
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "An error has occurred."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: None not a valid aws account id
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: None not a valid aws account id
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: None not a valid aws account id
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: None not a valid aws account id
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid aws account Id: 013081318756
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "An error has occurred."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: None not a valid aws account id
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: None not a valid aws account id
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: None not a valid aws account id
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: None not a valid aws account id
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid aws account Id: 013081318756
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "An error has occurred."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid aws account Id: 036160016055
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "account_id": [
+            "An error has occurred."
+        ]
+    }
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: cc_account_id found: ['2', '3', '4', '5', '6', '8', '9', '10', '12', '16', '17', '19', '20', '21', '22', '23', '24', '25', '27', '30']
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 2
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": "102512488663",
+    "Code": 0,
+    "HasCredentials": true,
+    "Id": 2,
+    "LastUpdated": "2018-09-05T20:41:15",
+    "Message": null,
+    "Name": "Payer (102512488663)",
+    "Note": null,
+    "PayerAccountId": null,
+    "PayerId": null,
+    "Provider": "Amazon Web Services",
+    "Type": "General"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 3
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": "634137649812",
+    "Code": 0,
+    "HasCredentials": true,
+    "Id": 3,
+    "LastUpdated": "2018-09-05T01:20:13",
+    "Message": null,
+    "Name": "atos-gen-ra4-dev",
+    "Note": "WBS: 123456789.ABC\r\nOwner: ABC Project\r\nContact: John.Deere@atos.net",
+    "PayerAccountId": "634137649812",
+    "PayerId": "12",
+    "Provider": "Amazon Web Services",
+    "Type": "General"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 4
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": null,
+    "Code": 0,
+    "HasCredentials": false,
+    "Id": 4,
+    "LastUpdated": null,
+    "Message": null,
+    "Name": "atos-csi-aws",
+    "Note": "",
+    "PayerAccountId": null,
+    "PayerId": null,
+    "Provider": "Amazon Web Services",
+    "Type": "MultiView"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 5
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": null,
+    "Code": 0,
+    "HasCredentials": false,
+    "Id": 5,
+    "LastUpdated": null,
+    "Message": null,
+    "Name": "atos-csi-azure",
+    "Note": null,
+    "PayerAccountId": null,
+    "PayerId": null,
+    "Provider": "Microsoft Azure",
+    "Type": "MultiView"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 6
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": "5fbf508c-7f81-4b1c-a153-c8b2a53a9929",
+    "Code": 0,
+    "HasCredentials": true,
+    "Id": 6,
+    "LastUpdated": "2018-09-05T17:40:34",
+    "Message": null,
+    "Name": "Atos UHC Dev1",
+    "Note": "WBS: 987654321.ACC\r\nOwner: ACC\r\nContact: olo.gusta@atos.net",
+    "PayerAccountId": "",
+    "PayerId": "10",
+    "Provider": "Microsoft Azure",
+    "Type": "General"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 8
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": "",
+    "Code": 0,
+    "HasCredentials": true,
+    "Id": 8,
+    "LastUpdated": "2018-09-05T21:06:55",
+    "Message": null,
+    "Name": "Billing Account (2018-06-07)",
+    "Note": null,
+    "PayerAccountId": null,
+    "PayerId": null,
+    "Provider": "Microsoft Azure",
+    "Type": "General"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 9
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": "f519bb87-e7bb-4fdc-8bae-e72907163ae5",
+    "Code": 0,
+    "HasCredentials": true,
+    "Id": 9,
+    "LastUpdated": "2018-09-05T17:34:26",
+    "Message": null,
+    "Name": "Atos UHC Dev2",
+    "Note": "WBS: 955555555.BUS\r\nOwner: Biedronka\r\nContact: franz.kafka@atos.net",
+    "PayerAccountId": "",
+    "PayerId": "10",
+    "Provider": "Microsoft Azure",
+    "Type": "General"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 10
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": "",
+    "Code": 0,
+    "HasCredentials": true,
+    "Id": 10,
+    "LastUpdated": "2018-09-05T21:11:49",
+    "Message": null,
+    "Name": "UHC Dev",
+    "Note": null,
+    "PayerAccountId": null,
+    "PayerId": null,
+    "Provider": "Microsoft Azure",
+    "Type": "General"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 12
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": "634137649812",
+    "Code": 0,
+    "HasCredentials": true,
+    "Id": 12,
+    "LastUpdated": "2018-09-05T02:41:47",
+    "Message": null,
+    "Name": "Payer (634137649812)",
+    "Note": null,
+    "PayerAccountId": null,
+    "PayerId": null,
+    "Provider": "Amazon Web Services",
+    "Type": "General"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 16
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": "davecloud-globalservices",
+    "Code": 0,
+    "HasCredentials": true,
+    "Id": 16,
+    "LastUpdated": "2018-09-05T09:07:27",
+    "Message": null,
+    "Name": "globalservicesproject",
+    "Note": null,
+    "PayerAccountId": null,
+    "PayerId": null,
+    "Provider": "Google Cloud",
+    "Type": "General"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 17
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": "migrationdemo-205618",
+    "Code": 0,
+    "HasCredentials": true,
+    "Id": 17,
+    "LastUpdated": "2018-08-07T15:15:34",
+    "Message": null,
+    "Name": "migrationdemoproject",
+    "Note": null,
+    "PayerAccountId": null,
+    "PayerId": null,
+    "Provider": "Google Cloud",
+    "Type": "General"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 19
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": "",
+    "Code": 0,
+    "HasCredentials": true,
+    "Id": 19,
+    "LastUpdated": "2018-09-05T21:12:11",
+    "Message": null,
+    "Name": "Mindsphere CSP1",
+    "Note": null,
+    "PayerAccountId": null,
+    "PayerId": null,
+    "Provider": "Microsoft Azure",
+    "Type": "General"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 20
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": "27c66729-3497-453d-918d-a44c83945c59",
+    "Code": 0,
+    "HasCredentials": true,
+    "Id": 20,
+    "LastUpdated": "2018-09-05T20:07:19",
+    "Message": null,
+    "Name": "mindsphere-csp1",
+    "Note": null,
+    "PayerAccountId": "",
+    "PayerId": "19",
+    "Provider": "Microsoft Azure",
+    "Type": "General"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 21
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": "013081318756",
+    "Code": 0,
+    "HasCredentials": true,
+    "Id": 21,
+    "LastUpdated": "2018-09-05T08:45:10",
+    "Message": null,
+    "Name": "Payer (013081318756)",
+    "Note": null,
+    "PayerAccountId": null,
+    "PayerId": null,
+    "Provider": "Amazon Web Services",
+    "Type": "General"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 22
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": null,
+    "Code": 0,
+    "HasCredentials": false,
+    "Id": 22,
+    "LastUpdated": null,
+    "Message": null,
+    "Name": "mindsphere-azure",
+    "Note": "",
+    "PayerAccountId": null,
+    "PayerId": null,
+    "Provider": "Microsoft Azure",
+    "Type": "MultiView"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 23
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": "",
+    "Code": 0,
+    "HasCredentials": true,
+    "Id": 23,
+    "LastUpdated": "2018-09-05T21:05:24",
+    "Message": null,
+    "Name": "CSI Dev",
+    "Note": null,
+    "PayerAccountId": null,
+    "PayerId": null,
+    "Provider": "Microsoft Azure",
+    "Type": "General"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 24
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": "692b17bd-3d27-4da0-bd12-40aa55e8c8b3",
+    "Code": 0,
+    "HasCredentials": true,
+    "Id": 24,
+    "LastUpdated": null,
+    "Message": null,
+    "Name": "Atos CSI Dev1",
+    "Note": null,
+    "PayerAccountId": "",
+    "PayerId": "23",
+    "Provider": "Microsoft Azure",
+    "Type": "General"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 25
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": "dfadd3bc-5139-42f9-9e0e-766e5f7a5817",
+    "Code": 0,
+    "HasCredentials": true,
+    "Id": 25,
+    "LastUpdated": "2018-09-05T17:54:28",
+    "Message": null,
+    "Name": "Atos CSI Dev2",
+    "Note": null,
+    "PayerAccountId": "",
+    "PayerId": "23",
+    "Provider": "Microsoft Azure",
+    "Type": "General"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 27
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": "013081318756",
+    "Code": 0,
+    "HasCredentials": true,
+    "Id": 27,
+    "LastUpdated": "2018-09-04T23:12:34",
+    "Message": null,
+    "Name": "atos-gen-ra2-dev",
+    "Note": "WBS: 33445566779.XYZ\r\nOwner: CloudOPs\r\nContact: Jan.Koods@atos.net",
+    "PayerAccountId": "013081318756",
+    "PayerId": "21",
+    "Provider": "Amazon Web Services",
+    "Type": "General"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Valid cc account Id: 30
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: Single Account Detail with WBS
+{
+    "AccountId": "036160016055",
+    "Code": 0,
+    "HasCredentials": true,
+    "Id": 30,
+    "LastUpdated": "2018-09-04T23:53:25",
+    "Message": null,
+    "Name": "atos-gen-ra2-qa",
+    "Note": null,
+    "PayerAccountId": null,
+    "PayerId": null,
+    "Provider": "Amazon Web Services",
+    "Type": "General"
+}
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: 
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: END **************
+getters_cloudchecker-nessie.py - cc-pull - <INFO>: cur_time: 2018-09-05 21:16:39.484041
